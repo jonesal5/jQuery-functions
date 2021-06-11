@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jQfunctions.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+console.log("Document is Ready!")
+$('h2').html("Hello World");
+        $('h2').click(function(){
+            console.log("h2 is clicked!");
+            $('p').toggle();
+        })
+    $('button').click(function (){
+        $('p').addClass()('change_color');
+        })
+    $('h3').click(function(){
+            console.log("h3 is clicked");
+            $('h3').hide();
+        })
+    $('h4').hover(function(){
+            console.log("h4 has been hovered");
+            $('h4').show();
+        })
+    $('h4').click(function(){
+            console.log("fade_out");
+            $('h4').fadeOut(200, function(){
+        })
+    $('h5').click(function(){
+            console.log("h5 has been clicked");
+            $('h5').slideUp(200, function(){
+        })  
+    })         
+    </script>
+</head>
+
+
+<body>
+    <h2>My jQuery basic assignment!</h2>
+    <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and
+        manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a
+        multitude of browsers.</p>
+    <button>Click for color change</button>
+    <h3>jQuery</h3>
+    <h4>W3 schools</h4>
+    <h5>Intro for beginners</h5>
+    <h6>Tutorial teacher</h6>
+</body>
+
+</html>
